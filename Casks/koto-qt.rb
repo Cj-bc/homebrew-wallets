@@ -1,4 +1,4 @@
-cask 'koto-Qt' do
+cask 'koto-qt' do
   version '2.0.2'
   sha256 '53b9ded8354aaa332e3002ee7cf06e5a1c6576dd92eead947ffdd8c81b6c537e'
 
