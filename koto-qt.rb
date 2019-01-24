@@ -1,4 +1,4 @@
-cask KotoQt do
+cask 'koto-qt' do
   version '2.0.2'
 
   # github.com/KotoDevelopers/koto was verified as official when first introduced to the cask
