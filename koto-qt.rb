@@ -3,6 +3,7 @@ cask KotoQt do
 
   # github.com/KotoDevelopers/koto was verified as official when first introduced to the cask
   url "https://github.com/KotoDevelopers/koto/releases/download/v#{version}/koto-#{version}-osx-unsigned.dmg"
+  appcast 'https://github.com/KotoDevelopers/koto/releases.atom'
   name 'koto-qt'
   homepage 'https://ko-to.org/'
 
