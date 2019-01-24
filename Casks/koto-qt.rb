@@ -8,5 +8,5 @@ cask 'koto-qt' do
   name 'koto-qt'
   homepage 'https://ko-to.org/'
 
-  app 'koto-2.0.2-osx-unsigned.dmg', target: 'koto-qt.app'
+  app 'koto-Qt.app'
 end
