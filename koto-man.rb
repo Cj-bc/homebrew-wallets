@@ -1,11 +1,11 @@
 class KotoMan < Formula
+  desc "man pages of Koto"
   homepage "https://github.com/KotoDevelopers/Koto"
-  version "2.0.2"
   url "https://github.com/KotoDevelopers/Koto/archive/v#{version}.tar.gz"
+  version "2.0.2"
   head "https://github.com/KotoDevelopers/Koto.git"
-  description "man pages of Koto"
 
-  conflict_with "Cj-bc/wallets/koto", :because => "Both install man pages for koto"
+  conflicts_with "Cj-bc/wallets/koto", :because => "Both install man pages for koto"
 
   def install
     man1.install Dir["doc/man/*.1"]
