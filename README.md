@@ -11,3 +11,8 @@ $ brew install <something>
 $ brew install koto
 $ brew cask install koto-qt
 ```
+
+# available formulas
+
+- koto-qt(cask): Qt wallet for koto
+- koto-man: manpage for `kotod` and `koto-cli` command
