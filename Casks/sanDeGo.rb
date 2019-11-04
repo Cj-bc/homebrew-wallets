@@ -1,4 +1,4 @@
-cask 'SanDeGo' do
+cask 'sanDeGo' do
   version '4.1.0'
   sha256 '2ccdbabc8d5f52b5a0835e5902fc27318a4477acfd378eded4d4b9b5569ce883'
 
