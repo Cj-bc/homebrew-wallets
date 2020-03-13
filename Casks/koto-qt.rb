@@ -1,6 +1,6 @@
 cask 'koto-qt' do
-  version '2.1.0'
-  sha256 'b6ff92c0402804b341f61f2ffaedd16cecbc4ab5235c779efdf3c30ed8a11307'
+  version '2.1.1-1'
+  sha256 'ec8054cf15b34029f0834bc08f3783e42c232634756bac45f6682f4e2eca4ab9'
 
   # github.com/KotoDevelopers/koto was verified as official when first introduced to the cask
   url "https://github.com/KotoDevelopers/koto/releases/download/v#{version}/koto-#{version}-osx-unsigned.dmg"
